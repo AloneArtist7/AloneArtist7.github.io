@@ -1,0 +1,100 @@
+.services-div {
+    width: 100%;
+    background-color: white;
+    padding: 75px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+@media only screen and (max-width: 768px) {
+    .services-div {
+        padding: 15px;
+        padding-top: 50px;
+    }
+}
+
+.services-txtdiv {
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-services {
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+.para-services {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    opacity: 97%;
+}
+
+@media only screen and (max-width: 768px) {
+    .services-txtdiv {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .header-services {
+        font-size: 40px;
+    }
+    .para-services {
+        font-size: 15px;
+        opacity: 94%;
+    }
+}
+
+.services-categdiv {
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+.serv-categ-div {
+    justify-content: center;
+    margin: 15px;
+    padding: 0;
+    border: none;
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 5px #c5c5c5;
+}
+
+@media only screen and (max-width: 768px) {
+    .serv-categ-div {
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+.servcateg-divbody {
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding: 20px;
+}
+
+.servcateg-header {
+    font-size: 38px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.servcateg-para {
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: 200;
+    text-align: center;
+    opacity: 95%;
+    margin-top: 5px;
+}

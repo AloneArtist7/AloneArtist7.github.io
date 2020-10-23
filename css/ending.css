@@ -1,0 +1,142 @@
+.ending-maindiv {
+    background-color: rgb(10,10,10);
+    padding: 75px;
+}
+
+@media only screen and (max-width: 768px) {
+    .ending-logo {
+        text-align: center;
+    }
+    .ending-maindiv {
+        padding-top: 100px;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.ending-lftdiv {
+    padding: 25px;
+}
+
+.ending-logo {
+    border: inset 2px;
+}
+
+.number-endingh {
+    opacity: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+    width: 300px;
+}
+
+.number-endinghh {
+    opacity: 100%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 23px;
+    color: #ed2b33;
+    padding-top: 30px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .number-endingh {
+        width: auto;
+        text-align: center;
+    }
+    .number-endinghh {
+        width: auto;
+        text-align: center;
+    }
+}
+
+.ending-middiv {
+    padding-top: 35px;
+}
+
+.numberdiv {
+    padding-top: 20px;
+    padding: 15px;
+}
+
+.numberdivv {
+    padding: 15px;
+    padding-top: 5px;
+}
+
+.numberdiv-h {
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: white;
+}
+
+.numberdiv-p {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    color: white;
+    opacity: 80%;
+} 
+
+.addressdiv-p {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    width: 300px;
+    color: white;
+    opacity: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+    .addressdiv-p {
+        width: auto;
+    }
+}
+
+.addressdiv-pp {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    width: 300px;
+    color: white;
+    opacity: 80%;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.addressdiv-pp:hover {
+    opacity: 100%;
+    text-decoration: underline;
+    color: white;
+    font-size: 21px;
+}
+
+.end-rgtdiv {
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .end-rgtdiv {
+        padding-bottom: 75px;
+    }
+}
+
+.heading-rgtdiv {
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    color: #ed2b33;
+}
+
+.img-enddiv-feed {
+    padding-top: 15px;
+}
+
+.img-enddiv-fee {
+    padding-top: 10px;
+}

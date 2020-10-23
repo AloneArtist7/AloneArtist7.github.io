@@ -1,0 +1,120 @@
+.blogs-ourdiv-main {
+    background-color: #0f0f0f;
+    padding: 10px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .blogs-ourdiv-main {
+        padding-top: 100px;
+    }
+}
+
+.blog-header-div {
+    text-align: center;
+}
+
+.blog-header-h {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    color: white;
+}
+
+.blog-header-p {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    opacity: 97%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-header-h {
+        font-size: 40px;
+    }
+    .blog-header-p {
+        font-size: 15px;
+        opacity: 94%;
+    }
+}
+
+.blogs-main-div {
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.recentblogs-div {
+    margin: 25px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .blogs-main-div {
+        margin: 5px;
+    }
+    .recentblogs-div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .recentworks-div {
+        margin: 10px;
+    }
+}
+
+.recentblogs-imgdiv {
+    box-shadow: 1px 1px 4px white;
+}
+
+.recentblogs-categ {
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    color: #ed2b33;
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.recentblogs-place {
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.recentblogs-readp {
+    font-size: 21px;
+    text-align: left;
+    font-weight: 600;
+    color: white;
+    opacity: 97%;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+    .recentblogs-categ {
+        font-size: 22px;
+    }
+    .recentblogs-place {
+        font-size: 21px;
+    }
+    .recentblogs-readp {
+        font-size: 18px;
+    }
+}
+
+.recentblogs-readp:hover {
+    opacity: 100%;
+    font-size: 19px;
+    text-decoration: underline;
+    color: white;
+}

@@ -1,0 +1,100 @@
+body {
+    background-color: #0f0f0f;
+    scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.div-top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 650px;
+    background-image: url('backgrounds-copy/bg11.jpg');
+  }
+  .topnav {
+    font-family: 'Bebas Neue', cursive;
+    padding-left: 12%;
+    padding-top: 275px;
+  }
+
+  .heading-topnav {
+    font-size: 60px;
+    color: #ed2b33;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+    transition-duration: 0.5s;
+    text-shadow: 1px 1px 5px rgb(20,20,20);
+  }
+
+  .heading-topnav:hover {
+    font-size: 63px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .top-nav{
+      padding-top: 35%;
+      padding-left: 10px;
+    }
+    .heading-topnav {
+      font-size: 40px;
+    }
+    .heading-topnav:hover {
+      font-size: 42px;
+    }
+    .para-topnav {
+      font-size: 16px;
+    }
+  }
+  .para-topnav {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+  }
+  .img-logo-rounded {
+    border: none;
+  }
+  .img-logo-rounded:hover {
+    height: 110px;
+    width: 110px;
+    transition: 1s;
+  }
+  .navbar-toggler-icon {
+    color: white;
+    padding: 5px;
+  }
+  .navbar-toggler {
+    color: white;
+  }
+  .top-navbar {
+    background-color: black;
+    padding: 15px;
+    font-family: 'Bebas Neue', cursive;
+    transition-duration: 0.6s;
+    box-shadow: 1px 1px 6px black;
+  }
+  .navbar-nav {
+    font-family: 'Bebas Neue', cursive;
+  }
+  .navbar-collapse {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+  }
+  .a-items-a {
+    font-size: 20px;
+    color: white;
+    font-weight: 300px;
+  }
+  .a-items-a:hover {
+    font-size: 21px;
+    color: #fee715;
+    transition-duration: 1s;
+    background-color: rgb(20, 20, 20);
+  }
+  

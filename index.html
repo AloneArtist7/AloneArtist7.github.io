@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/common.css" type="text/css">
+        <link rel="stylesheet" href="css/about.css" type="text/css">
+        <link rel="stylesheet" href="css/services.css" type="text/css">
+        <link rel="stylesheet" href="css/recentwork.css" type="text/css">
+        <link rel="stylesheet" href="css/inspquote.css" type="text/css">
+        <link rel="stylesheet" href="css/blogs.css" type="text/css">
+        <link rel="stylesheet" href="css/ending.css" type="text/css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        <script>
+
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "navbar-top") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar-top";
+              }
+            }
+
+            window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+   if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+   document.getElementById("mainNav").style.padding = "10px";
+   document.getElementById("logo").style.fontSize = "0px";
+   document.getElementById("mainNav").style.backgroundColor = "black";
+   } else {
+   document.getElementById("mainNav").style.padding = "15px";
+   document.getElementById("logo").style.fontSize = "10px";
+   }
+  }
+
+
+            $(document).ready(function() {
+                 $(window).scroll( function(){
+                    $('.picmaindiv').each( function(i){
+                        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                        var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+                    if( bottom_of_window > bottom_of_object ){$(this).animate({'opacity':'1'},500); 
+                    }
+                    }); 
+                });
+            });
+
+
+        </script>
+
+    </head>
+    <body>
+        <div class="top-nav-div div-top" style="width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 650px;
+        background-image: url('backgrounds-copy/bg11.jpg');" id="home">
+            <div class="topnav">
+              <h1 class="heading-topnav">PIXL PHOTOGRAPHY</h1>
+              <p class="para-topnav">LOREM IPSUM. THE PLACEHOLDER TEXT</p>
+      
+            </div>
+            <nav class="navbar navbar-expand-sm stick-top top-navbar fixed-top" id="mainNav" role="navigation">
+              <a href="#" class="navbar-brand link-logo">
+                <img src="mainlogo.png" height="100px" width="100px" class="img-logo-rounded" id="logo">
+              </a>
+              <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse">
+                <span class="navbar-toggler-icon" style=" color: white; background-color: white;"></span>
+              </a>
+              <div class="collapse navbar-collapse justify-content-center" id="collapse">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#home" class="nav-link a-items a-items-a">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#about" class="nav-link a-items a-items-a">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#portfolio" class="nav-link a-items a-items-a">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#services" class="nav-link a-items a-items-a">Services</a>
+                  </li>
+                    <li class="nav-item">
+                        <a href="#worksrecent" class="nav-link a-items a-items-a">Recent Works</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#toparticles" class="nav-link a-items a-items-a">Top Articles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contact" class="nav-link a-items a-items-a">Contact</a>
+                </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+
+        <div class="row pic-main-div" style="background-color: black;" id="about">
+
+            <div class="abtme-maindiv">
+                <div class="row abtme-div">
+            
+                  <div class="col-md abtme-txtdiv">
+                    <h1 class="abtme-heading">ABOUT ME</h1>
+                    <p class="abtme-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra varius venenatis. Suspendisse quam orci, fermentum a purus ut, mattis fringilla est. Sed hendrerit gravida ante, vitae posuere ligula dapibus nec. Sed ut ultrices dolor. Cras dictum tristique nisi sed pharetra. Duis pretium finibus augue, a porta sapien sollicitudin in.<br><br>Proin cursus, enim eget mattis venenatis, neque mi venenatis massa, nec efficitur orci urna luctus diam. Ut pellentesque purus a tincidunt venenatis. Aliquam id ex vitae turpis egestas tincidunt. Proin aliquam ornare lectus, vitae sodales felis. Pellentesque ac tortor id purus interdum elementum.</p>
+                  </div>
+            
+                  <div class="col-md abtme-imgdiv">
+                    <img src="backgrounds-copy/manphoto.jpg" height="370px" width="270px" class="abtme-img">
+                  </div>
+            
+                </div>
+              </div>
+
+        </div>
+
+
+
+        <div class="row i-know-maindiv" id="portfolio">
+
+          <div class="col-md i-know-subdiv">
+            <div class="row">
+              <div class="col-md i-know-imgdiv">
+                <img src="icons/camera.png" class="i-know-img" height="100px" width="100px">
+              </div>
+              <div class="col-md i-know-txtdiv">
+                <h1 class="i-know-header">PHOTOGRAPHY</h1>
+                <p class="i-know-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra varius venenatis. Suspendisse quam orci, fermentum a purus ut, mattis fringilla est.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md i-know-subdiv">
+            <div class="row">
+              <div class="col-md i-know-imgdiv">
+                <img src="icons/computer.png" class="i-know-img" height="100px" width="100px">
+              </div>
+              <div class="col-md i-know-txtdiv">
+                <h1 class="i-know-header">DESIGNING</h1>
+                <p class="i-know-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra varius venenatis. Suspendisse quam orci, fermentum a purus ut, mattis fringilla est.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md i-know-subdiv">
+            <div class="row">
+              <div class="col-md i-know-imgdiv">
+                <img src="icons/web-development.png" class="i-know-img" height="100px" width="100px">
+              </div>
+              <div class="col-md i-know-txtdiv">
+                <h1 class="i-know-header">WEB DEVELOPMENT</h1>
+                <p class="i-know-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pharetra varius venenatis. Suspendisse quam orci, fermentum a purus ut, mattis fringilla est.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        
+        <div class="services-div" id="services">
+
+            <div class="services-txtdiv">
+                <h1 class="header-services">OUR SERVICES</h1>
+                <p class="para-services">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi ligula, tristique ultricies felis at, luctus fermentum ipsum. Fusce sit amet lobortis turpis. Mauris luctus sapien vel condimentum gravida. Maecenas eu lacus id erat lacinia malesuada.</p>
+            </div>
+
+            <div class="row services-categdiv">
+
+                <div class="col-md serv-categ-div card">
+                    <img class="card-img-top img-servcateg" src="backgrounds-copy/photography.jpg" height="200px" width="270px">
+                    <div class="card-body servcateg-divbody">
+                        <h1 class="card-title servcateg-header">PHOTOGRAPHY</h1>
+                        <p class="card-text servcateg-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi ligula, tristique ultricies felis at, luctus fermentum ipsum. Fusce sit amet lobortis turpis. Mauris luctus sapien vel condimentum gravida.</p>
+                    </div>
+                </div>
+
+                <div class="col-md serv-categ-div card">
+                    <img class="card-img-top img-servcateg" src="backgrounds-copy/web-design.jpg" height="200px" width="270px">
+                    <div class="card-body servcateg-divbody">
+                        <h1 class="card-title servcateg-header">WEB DEVELOPER</h1>
+                        <p class="card-text servcateg-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi ligula, tristique ultricies felis at, luctus fermentum ipsum. Fusce sit amet lobortis turpis. Mauris luctus sapien vel condimentum gravida.</p>
+                    </div>
+                </div>
+
+                <div class="col-md serv-categ-div card">
+                    <img class="card-img-top img-servcateg" src="backgrounds-copy/vid-editing.jpg" height="200px" width="270px">
+                    <div class="card-body servcateg-divbody">
+                        <h1 class="card-title servcateg-header">VIDEO EDITING</h1>
+                        <p class="card-text servcateg-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi ligula, tristique ultricies felis at, luctus fermentum ipsum. Fusce sit amet lobortis turpis. Mauris luctus sapien vel condimentum gravida.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="recent-workdiv-main" id="worksrecent">
+
+            <div class="recent-workheader-div">
+              <h1 class="recent-workheader-h">OUR RECENT WORKS</h1>
+              <p class="recent-workheader-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi ligula, tristique ultricies felis at, luctus fermentum ipsum. Fusce sit amet lobortis turpis. Mauris luctus sapien vel condimentum gravida. Maecenas eu lacus id erat lacinia malesuada.</p>
+            </div>
+
+            <div class="recent-worksmain-div">
+                <div class="recent-worksoneline-div row">
+
+                    <div class="col-md recentworks-div">
+                      <div class="recentworks-imgdiv">
+                        <img src="backgrounds-copy/works1.jpg" class="img-recentworks" height="100%" width="100%">
+                      </div>
+                      <div class="recentworks-txtdiv">
+                        <h1 class="recentworks-categ">MOUNTAINS</h1>
+                        <p class="recentworks-place">ALPS, GERMANY</p>
+                      </div>
+                    </div>
+
+                    <div class="col-md recentworks-div">
+                      <div class="recentworks-imgdiv">
+                        <img src="backgrounds-copy/works2.jpg" class="img-recentworks" height="100%" width="100%">
+                      </div>
+                      <div class="recentworks-txtdiv">
+                        <h1 class="recentworks-categ">SUNSET</h1>
+                        <p class="recentworks-place">MARINA BEACH, INDIA</p>
+                      </div>
+                    </div>
+
+                </div>
+
+                <div class="recent-worksoneline-div row">
+
+                  <div class="col-md recentworks-div">
+                    <div class="recentworks-imgdiv">
+                      <img src="backgrounds-copy/works3.jpg" class="img-recentworks" height="100%" width="100%">
+                    </div>
+                    <div class="recentworks-txtdiv">
+                      <h1 class="recentworks-categ">MOUNTAINS</h1>
+                      <p class="recentworks-place">HIMALAYAS, ASSAM, INDIA</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md recentworks-div">
+                    <div class="recentworks-imgdiv">
+                      <img src="backgrounds-copy/works4.jpg" class="img-recentworks" height="100%" width="100%">
+                    </div>
+                    <div class="recentworks-txtdiv">
+                      <h1 class="recentworks-categ">SUNSET</h1>
+                      <p class="recentworks-place">RAMNAD BEACH, INDIA</p>
+                    </div>
+                  </div>
+
+              </div>
+              </div>
+
+            </div>
+
+        </div>
+
+        <div class="quoteinsp-div" style="background-image: url('backgrounds-copy/buildingimg.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;">
+          <div class="quoteinsp-txtdiv">
+            <h1 class="header-quoteinsp">"A MIND THAT IS STRETCHED BY A NEW EXPERIENCE CAN NEVER GO TO ITS OLD DIMENSIONS"</h1>
+          </div>
+        </div>
+
+
+
+        <div class="blogs-ourdiv-main" id="toparticles">
+
+          <div class="blog-header-div">
+            <h1 class="blog-header-h">OUR RECENT ARTICLES</h1>
+            <p class="blog-header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisi ligula, tristique ultricies felis at, luctus fermentum ipsum. Fusce sit amet lobortis turpis. Maecenas eu lacus id erat lacinia malesuada.</p>
+          </div>
+
+          <div class="blogs-main-div">
+              <div class="recent-worksoneline-div row">
+
+                  <div class="col-md recentblogs-div">
+                    <div class="recentblogs-imgdiv">
+                      <img src="backgrounds-copy/waterfallblog.jpg" class="img-recentblogs" height="100%" width="100%">
+                    </div>
+                    <div class="recentblogs-txtdiv">
+                      <h1 class="recentblogs-categ">FALLING FOR WATERFALLS</h1>
+                      <p class="recentblogs-place">VENEZUALA FALLS, VENEZUALA</p>
+                      <a href="#" class="recentblogs-readp">read more &gt;&gt;</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md recentblogs-div">
+                    <div class="recentblogs-imgdiv">
+                      <img src="backgrounds-copy/himalayasblog.jpg" class="img-recentblogs" height="100%" width="100%">
+                    </div>
+                    <div class="recentblogs-txtdiv">
+                      <h1 class="recentblogs-categ">ENCHANTING HIMALAYAS</h1>
+                      <p class="recentblogs-place">JAMMU AND KASHMIR, INDIA</p>
+                      <a href="#" class="recentblogs-readp">read more &gt;&gt;</a>
+                    </div>
+                  </div>
+
+                  <div class="col-md recentblogs-div">
+                    <div class="recentblogs-imgdiv">
+                      <img src="backgrounds-copy/escapefromrealityblog.jpg" class="img-recentblogs" height="100%" width="100%">
+                    </div>
+                    <div class="recentblogs-txtdiv">
+                      <h1 class="recentblogs-categ">ESCAPE FROM REALITY</h1>
+                      <p class="recentblogs-place">UTTARAKHAND, INDIA</p>
+                      <a href="#" class="recentblogs-readp">read more &gt;&gt;</a>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+
+
+
+      <div class="ending-maindiv" id="contact">
+        <div class="row ending-divrow">
+
+          <div class="col-md ending-lftdiv">
+            <img src="mainlogo.png" height="140px" width="140px" class="ending-logo">
+            <h1 class="number-endingh">“When words become unclear, I shall focus with photographs”</h1>
+            <h1 class="number-endinghh">THANK YOU FOR SPENDING YOUR VALUABLE TIME WITH US !</h1>
+          </div>
+
+          <div class="col-md ending-middiv">
+            <div class="numberdiv">
+              <h1 class="numberdiv-h">MY CONTACT</h1>
+              <p class="numberdiv-p">+91 0000000000</p>
+            </div>
+            <div class="numberdivv">
+              <h1 class="numberdiv-h">MY ADRESS</h1>
+              <p class="addressdiv-p">NO. 6, VIVEKANANDA STREET, MADURAI CROSS STREET, MADURAI MAIN ROAD, MADURAI - 1</p>
+            </div>
+            <div class="numberdivv">
+              <h1 class="numberdiv-h">MY GMAIL</h1>
+              <a class="addressdiv-pp" target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrlFpgbPqNglVdvkGGrPKHcFnqdhSGrmVdwrfZwsNjhpVCXvKPVLcvcrCGFBflpXVqsKdB">CLICK HERE TO CONTACT ME THROUGH GMAIL</a>
+            </div>
+          </div>
+
+          <div class="col-md end-rgtdiv">
+            <h1 class="heading-rgtdiv">INSTAGRAM FEEDS</h1>
+            <div class="img-enddiv-feed">
+              <img src="backgrounds-copy/escapefromrealityblog.jpg" class="img-enddiv" height="100px" width="85px">
+              <img src="backgrounds-copy/himalayasblog.jpg" class="img-enddiv" height="100px" width="85px">
+              <img src="backgrounds-copy/waterfallblog.jpg" class="img-enddiv" height="100px" width="85px">
+            </div>
+            <div class="img-enddiv-fee">
+              <img src="backgrounds-copy/escapefromrealityblog.jpg" class="img-enddiv" height="100px" width="85px">
+              <img src="backgrounds-copy/himalayasblog.jpg" class="img-enddiv" height="100px" width="85px">
+              <img src="backgrounds-copy/waterfallblog.jpg" class="img-enddiv" height="100px" width="85px">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </body>
+</html>

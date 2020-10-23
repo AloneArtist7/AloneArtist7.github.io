@@ -1,0 +1,125 @@
+.abtme-maindiv {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: #0f0f0f;
+}
+
+@media only screen and (max-width: 768px) {
+    .abtme-maindiv {
+        padding-top: 100px;
+    }
+}
+
+.abtme-div {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.abtme-imgdiv {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.abtme-txtdiv {
+    width: 100%;
+    margin-left: 175px;
+}
+
+.abtme-img {
+    justify-content: center;
+    box-shadow: 5px 5px 2px rgb(120, 120, 120);
+    text-align: center;
+    filter: brightness(75%) contrast(160%);
+}
+
+.abtme-heading {
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-radius: 2px;
+    border-bottom-color: #ed2b33;
+    width: 100%;
+}
+
+.abtme-para {
+    font-size: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    .abtme-txtdiv {
+        text-align: center;
+        margin: 20px;
+        margin-left: 40px;
+    }
+    .abtme-para {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .abtme-heading {
+        text-align: center;
+        font-size: 38px;
+    }
+}
+
+
+.i-know-maindiv {
+    background-color: rgb(10, 10, 10);
+    padding: 60px;
+}
+
+.i-know-subdiv {
+    margin: 40px;
+    padding: 0;
+}
+
+.i-know-header {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.i-know-para {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: white;
+    opacity: 92%;
+    width: 175px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .i-know-subdiv {
+        margin: 25px;
+        text-align: center;
+    }
+    .i-know-maindiv {
+        padding: 15px;
+        padding-bottom: 25px;
+    }
+    .i-know-img {
+        padding: 15px;
+        height: 125px;
+        width: 125px;
+        margin: 15px;
+    }
+    .i-know-para {
+        width: auto;
+    }
+    .i-know-header {
+        font-size: 34px;
+    }
+    .i-know-para {
+        font-size: 15px;
+        opacity: 96%;
+    }
+}
